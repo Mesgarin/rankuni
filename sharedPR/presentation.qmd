@@ -1,0 +1,51 @@
+---
+title: "Ranking University"
+author: "Honorine,Simon and Nastaran"
+format: 
+  revealjs:
+    slide-number: true
+    number-sections: false
+    scrollable: true
+    smaller: true
+    toc: true
+    toc-depth: 1
+---
+
+# <span style="text-align: center; justify-content: center; font-size: 1.4em;" >topic 1 for telling story</span>
+## Include a slide deck
+```{python}
+import pandas as pd
+import numpy as np
+
+from pandas.core.tools.numeric import to_numeric
+import geopandas as gpd
+
+import plotly as px
+import plotly.express as px # for interactive plots
+import plotly.graph_objs as go
+from plotly.subplots import make_subplots
+import matplotlib.pyplot as plt
+
+import os
+import warnings
+warnings.filterwarnings("ignore")
+```
+
+
+![](img/dykes_storyformats.png){fig-align="center"}
+
+## This deck is made with quarto revealjs
+
+- You find documentation of how to make revealjs presentations with quarto here:
+<https://quarto.org/docs/presentations/revealjs/>
+- Skip through the demo presentation and learn from there. 
+
+
+:::{.aside}
+Using revealjs is not mandatory. 
+:::
+
+
+## Remove all this content ...
+
+... and put your content. 
